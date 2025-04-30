@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cyberpunk Light Scheduler</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1 class="neon">LIGHT<br> SCHEDULER</h1>
+    <form id="schedule-form">
+      <div class="field">
+        <label for="on-time">ON Time</label>
+        <input type="time" id="on-time" required />
+      </div>
+      <div class="field">
+        <label for="off-time">OFF Time</label>
+        <input type="time" id="off-time" required />
+      </div>
+      <button type="submit" class="btn">SCHEDULE</button>
+    </form>
+    <p id="status"></p>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
