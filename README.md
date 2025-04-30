@@ -1,6 +1,6 @@
 # IoT Light Scheduler Dashboard
 
-![Dashboard Display](screenshot-img/display.png)
+![Dashboard Preview](https://github.com/Ntarekp/simulate_light/blob/main/screenshot-img/Display.png?raw=true)
 
 A simple browser‑based dashboard to schedule an Arduino‑controlled light via WebSockets → MQTT → Serial.
 
